@@ -3,11 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
+  height: 100%;
 }
+
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  margin-bottom: 60px;
+  position: relative;
 }
 
 nav {
@@ -17,35 +23,52 @@ nav {
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 0;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
+  padding: 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
 
-
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; 
+  height: 60px;
   background: #6cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h1{ position: static
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
