@@ -9,13 +9,6 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: "Goldman", cursive;
-  min-height: 100vh;
-  margin-bottom: 60px;
-  position: relative;
-}
-
 nav {
   display: flex;
   width: 100%;
@@ -51,7 +44,7 @@ nav img {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -66,10 +59,33 @@ h1 {
   margin-bottom: 20px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+
+
+
+h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
 }
 
+p {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+main {
+  position: absolute;
+}
+
+#hh {
+  margin-top: 40vh;
+}
